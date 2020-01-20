@@ -576,7 +576,7 @@ runBulkCheckBlock ()
 #ReadMe function. Creates text file and removes after veiwing. Viewable from Top Menu.
 readMe ()
 {
-	echo -e "\t\t\tAbuseIP Bulk Check Script\n\t\t\tby Steve \"Gravemander\" Loeb, CI Security" | sed 's/^/           /' > readMeAbuseIpBulkCheck
+	echo -e "\t\t\tAbuseIP Bulk Check Script\n\t\t\tby Admiral SYN-ACKbar" | sed 's/^/           /' > readMeAbuseIpBulkCheck
 	echo -e "\nPurpose \n \nThis program enables you to check either a CSV list of IP addresses or a CIDR block against the Abuse IP Database. It returns information about the IPs checked as a CSV file." >> readMeAbuseIpBulkCheck
 	echo -e "\nPrerequisites \n \nYou will need an API key from the AbuseIP Database, available for free at https://www.abuseipdb.com/pricing. Create an account and generate an API key. When running in CSV List mode, you will need a CSV file that contains 1 IP address per line. Do not include any headings. \n\nJQ, which is used for JSON processing, is also required. When you run a bulk-check, the program will check to see if this is installed and prompt you for installation if it is not. " >> readMeAbuseIpBulkCheck
 	echo -e "\nTimeout errors \n\nTimeout errors will sometimes occur if AbuseIPDb.com is having availability issues. The program will generally spend up to a minute on a query before returning a \"parse error: Invalid numeric literal at line 1, column 10\". This generally coincides with being unable to run queries on the site through a web browser. These occur regularly but are generally resolved within minutes. If you see one, try running the script again in a few minutes and seeing if the issue resolves. " >> readMeAbuseIpBulkCheck
