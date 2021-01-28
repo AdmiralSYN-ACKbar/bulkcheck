@@ -9,4 +9,4 @@ You will need an API key from the AbuseIP Database, available for free at (https
 [PoshGUI](https://poshgui.com) <br>
 [Potatrix](https://github.com/Potatrix)
 
-Feature requests and feedback welcome here or at https://www.admiralsyn-ackbar.com/contact-the-admiralty/.
+Feature requests and feedback welcome here or at (https://www.admiralsyn-ackbar.com/contact-the-admiralty/).
