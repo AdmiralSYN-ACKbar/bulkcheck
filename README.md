@@ -2,4 +2,9 @@ Powershell script with a Winforms GUI for mass-checking IP addresses against the
 
 ![screenshot](https://github.com/AdmiralSYN-ACKbar/bulkcheck/blob/master/example.PNG "Example Output")
 
-Special thanks to [AbuseIPDB](https://abuseipdb.com), [PoshGUI](https://poshgui.com), and [Potatrix](https://github.com/Potatrix). Feature requests and feedback welcome here or at https://www.admiralsyn-ackbar.com/contact-the-admiralty/.
+Special thanks to: 
+[AbuseIPDB](https://abuseipdb.com)
+[PoshGUI](https://poshgui.com)
+[Potatrix](https://github.com/Potatrix) 
+
+Feature requests and feedback welcome here or at https://www.admiralsyn-ackbar.com/contact-the-admiralty/.
