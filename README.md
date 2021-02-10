@@ -10,3 +10,5 @@ You will need an API key from the AbuseIP Database, available for free at (https
 [Potatrix](https://github.com/Potatrix)
 
 Feature requests and feedback welcome here or at (https://www.admiralsyn-ackbar.com/contact-the-admiralty/).
+
+Original BASH version can be found in the [BASH branch](https://github.com/AdmiralSYN-ACKbar/bulkcheck/tree/BASH).
