@@ -322,7 +322,7 @@ function bulkCheck {
         $global:lineCount++
         }
     endOutput #Show end output and statistics
-    Get-content $jsonTempPath | ConvertFrom-Json | select -ExpandProperty Data | select ipAddress, abuseConfidenceScore, isp, domain, countryCode, totalReports, lastReportedAt | ConvertTo-CSV -NoTypeInformation | add-content $exportPath #Create CSV output file       
+    Get-content $jsonTempPath | ConvertFrom-Json | select -ExpandProperty Data | select ipAddress, abuseConfidenceScore, isp, domain, countryCode, totalReports, lastReportedAt, isPublic, isWhitelisted, usageType, @{n="hostnames";e={$_.hostnames -join ";"}} | ConvertTo-CSV -NoTypeInformation | add-content $exportPath #Create CSV output file       
     Remove-Item $jsonTempPath.FullName -Force #Remove temp file       
 }
 [void]$bulkChecker.ShowDialog() #Close WinForms
